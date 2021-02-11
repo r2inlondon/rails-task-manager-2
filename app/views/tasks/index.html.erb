@@ -2,7 +2,7 @@
 
 <ul>
   <% @tasks.each do |task| %>
-    <li>Title: <%= link_to task.title, task_path(task) %> - Completed?  <%= task.completed %></li>
+    <li>Title: <%= link_to task.title, task_path(task) %> - Is the task Completed?  <%= task.completed %> </li>
   <% end %>
 </ul>
 
